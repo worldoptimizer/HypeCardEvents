@@ -1,5 +1,4 @@
-# Hype Card Events v1.2.3
-*copyright (c) 2025 by Max Siebell (https://maxziebell.de). MIT-license*
+# Hype Card Event
 
 A Tumult Hype extension that provides enhanced scene transition and interaction events. It fires **HypeCardUnload**, **HypeCardPrepare**, and **HypeCardLoad** events specifically when the *scene name* (your "card") changes, intelligently ignoring layout-only switches. Additionally, it introduces **HypeCardInteraction** for detailed pointer interaction tracking, including swipe detection. You can also define a single **HypeCardEvent** handler to catch all card-related events.
 
